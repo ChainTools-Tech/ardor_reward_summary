@@ -7,7 +7,7 @@ from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
 
 def get_epoch_beginning(api_url, api_headers=None, api_params=None):
     """
-    https://ardor.qf3l3k.tech/nxt?requestType=getConstants
+    https://ardor.jelurida.com/nxt?requestType=getConstants
     :return:
     """
     if api_params is None:
