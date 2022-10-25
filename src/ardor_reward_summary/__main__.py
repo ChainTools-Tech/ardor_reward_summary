@@ -8,7 +8,7 @@ from ardor_reward_summary.reward_calc import get_epoch_beginning, get_transactio
 
 def main():
     api_dict = {
-        "ardor": "https://ardor.qf3l3k.tech/nxt?"
+        "ardor": "https://ardor.jelurida.com/nxt?"
     }
 
     epoch_beginning = get_epoch_beginning(api_dict['ardor'])
